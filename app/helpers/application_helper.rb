@@ -12,7 +12,7 @@ module ApplicationHelper
 
 	def image_pack image_ary
 		result = "<div class=\"image_pack\">"
-		image_ary.each{ |i| result += uri_image( "uri/#{i}" ) }
+		image_ary.each{ |i| result += uri_image( "uri/#{i}", class: 'simple' ) }
 		result += "</div>"
 		result.html_safe
 	end
