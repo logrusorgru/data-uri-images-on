@@ -13,3 +13,15 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+
+$(function(){
+	$('#new_comment').submit(function(event) {
+		var text = $('#comment_content').val()
+		if (text.indexOf("http://") == -1 || text.indexOf("https://") == -1) {
+			return true;
+		}
+		event.preventDefault();
+		return false;
+	});
+});
+
