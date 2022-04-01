@@ -1,8 +1,8 @@
 GIT
-  remote: git://github.com/logrusorgru/data_uri_images.git
-  revision: 3eeaf3e0f9ff38c3e7886c5bb98781fa225ca47e
+  remote: https://github.com/logrusorgru/data_uri_images.git
+  revision: dc37d6ed2f5affef9d35677351d8ddf33e31981b
   specs:
-    data_uri_images (0.0.1)
+    data_uri_images (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -86,7 +86,7 @@ GEM
     nokogiri (1.9.1)
       mini_portile2 (~> 2.4.0)
     pg (0.17.1)
-    puma (5.6.2)
+    puma (5.6.4)
       nio4r (~> 2.0)
     rack (1.6.12)
     rack-test (0.6.3)
